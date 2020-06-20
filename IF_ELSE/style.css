@@ -1,0 +1,81 @@
+.game, .then {
+  border: 1px solid red;
+  width: 400px;
+  padding: 10px;
+  display: inline-block;
+}
+.but-jss {
+  position: relative;
+  border: 1px solid red;
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+  display: inline-block;
+  margin-left: 50px;
+  top: 10px;
+}
+
+#but-js {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 50px;
+}
+h3 {
+  position: absolute;
+  top: 100px;
+}
+h4 {
+  font-size: 18px;
+}
+.then {
+  display: block;
+  margin-top: 30px;
+}
+p {
+  font-size: 25px;
+
+}
+input {
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+button {
+  width: auto;
+  height: 30px;
+  font-size: 20px;
+}
+#js-input, #js-input-2 {
+
+  display: block;
+  margin-bottom: 20px;
+}
+#js-input {
+  margin-top: 20px;
+}
+#sine-P {
+  margin-top: 60px
+}
+.sine-n {
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */

@@ -1,0 +1,10 @@
+npm install react-navigation
+npm i react-navigation-stack
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context
+
+import {createAppContainer} from "react-navigation";
+import { createStackNavigator } from 'react-navigation-stack';
+
+npm install react-navigation react-navigation-stack react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context
+
+npm i react-navigation-tabs  import { createBottomTabNavigator } from 'react-navigation-tabs'; createBottomTabNavigator(RouteConfigs, TabNavigatorConfig);

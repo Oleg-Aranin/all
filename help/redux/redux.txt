@@ -1,0 +1,72 @@
+
++++++++++++++++++++++++++++++++++++++++++++++++ подготовка Redux к работе ++++++++
+yarn add redux react-redux redux-thunk
+
+import {createStore} from 'redux'
+import {Provider} from 'react-redux'
+import thunk from 'redux-thunk'
+
+const store = createStore()
+
+оборачиваем весь апп + передаем как параметер stor
+
+  <Provider store={store} >
+    апп
+  </Provider>
+
+создаем папку store в которой будет хранитс€ все что относитс€ к Redux
+(actions -> actionTypes.js, reducers -> rootReducer.js)
+rootReducer.js - это функци€ объедин€юща€ все Reducer -> import {combineReducers} from 'redux' -> export default combineReducers()
+actionTypes.js - храним все экшены нашеха апп
+
+
+import rootReducer from './store/reducers/rootReducer' (в индекс.жс)
+const store = creatStore(rootReducer) передаем как параметер
+
+======================================= devtools ================
+
+подключаем devtools https://github.com/zalmoxisus/redux-devtools-extension
+import {createStore, compose, applyMiddleware} } from 'redux'
+
+const composeEnhancers =
+
+  typeof window === 'object' &&
+
+  window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ ?
+
+    window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__({
+    }) : compose;
+
+const store = createStore(
+
+  rootReducer,
+
+  composeEnhancers
+
+( applyMiddleware(thunk) )  
+)
+
+========================================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+import {connect} from 'react-redux'
+
+function mapStateToProps(state) {
+
+
+return
+{
+}
+
+
+
+function mapDispatchToProps(dispatch) {
+ 
+return {
+
+   
+ }
+
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(QuizList)

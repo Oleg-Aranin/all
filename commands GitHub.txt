@@ -1,0 +1,12 @@
+установка в папку git init
+описание рипозитория echo >> README.md
+добавить в индекс(A-все файлы, *.html и тд) git add -A
+посмотреть статус git status
+удалить файл git rm --cached <file>..."
+сохранить версию (m - меседж) git commit -a -m "это камит"
+отследить все изменения git log
+короткий вывод изменений git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short
+помощь git log --help
+отчистить консоль clear
+запушить на гитхаб git push -u origin master
+

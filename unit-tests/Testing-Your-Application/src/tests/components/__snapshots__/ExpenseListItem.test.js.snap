@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExpenseListItem should render ExpenseListItem correctly 1`] = `"<div><a href=\\"/edit/1\\"><h3>Gum</h3></a><p>195 - 0</p></div>"`;

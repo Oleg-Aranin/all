@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExpenseForm should set new date on date change 1`] = `ShallowWrapper {}`;

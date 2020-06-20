@@ -1,0 +1,21 @@
+.Signin {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  border: 1px solid black;
+  align-items: center;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 100px;
+  text-align: center;
+}
+.error {
+  position: absolute;
+
+}
+
+@media screen and (max-width: 375px) {
+.Signin {
+  border: none;
+}
+}

@@ -1,0 +1,3 @@
+http://tpverstak.ru/flex-cheatsheet/
+http://flexbox.malven.co/
+Список багов (https://github.com/philipwalton/flexbugs)

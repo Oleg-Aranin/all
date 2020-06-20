@@ -1,0 +1,55 @@
+* {
+   padding: 0;
+   margin: 0;
+}
+
+body {
+     background: #000;
+     background-size: cover;
+     text-align: center;
+     z-index: 1000;
+
+}
+h1 {
+  color: #fff;
+}
+#obvertka {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  margin: 10px auto;
+  overflow: hidden;
+  border: 3px solid #fff;
+  z-index: 0;
+}
+
+.slider {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  /* margin: 10px auto; */
+  overflow: hidden;
+  border: 3px solid #fff;
+  z-index: 0;
+}
+
+.slider-befor, .slider-after {
+    left: 0;
+    top: 0;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    overflow: hidden;
+}
+
+.slider-after {
+  width: 50%;
+}
+#btn {
+  position: absolute;
+  height: 400px;
+  width: 15px;
+  left: 50%;
+  top: 0;
+  z-index: 0;
+}

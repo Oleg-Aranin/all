@@ -1,0 +1,4 @@
+https://github.com/expo/vector-icons
+
+import {Feather} from '@expo/vector-icons'
+        <Feather name='search' size={30} style={styles.iconStyle} />

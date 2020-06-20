@@ -1,0 +1,90 @@
+div {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background: rgb(62,194,37);
+}
+.oberyka {
+  width: auto;
+  height: auto;
+  display: auto;
+  background: 0;
+}
+
+.dom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background: rgb(21,44,249);
+  text-align: center;
+  vertical-align: text-bottom;
+  vertical-align: middle;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+input {
+  position: absolute;
+  left: 300px;
+  top: 0px;
+  display: block;
+  width: 300px;
+  height: 30px;
+}
+img {
+  margin-top: 30px;
+  width: 400px;
+  height: 400px;
+  display: block;
+}
+.box-1 {
+  width: auto;
+  display: block;
+}
+button {
+  margin-top: 30px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: rgb(106,4,133);
+  margin-left: 5px;
+}
+.ip2, .img2 {
+  position: absolute;
+  left: 500px;
+  top: 200px;
+}
+.img2 {
+  top: 300px;
+  width: 150px;
+  height: 150px;
+}
+.but-tow {
+  width: 40px;
+  height: 40px;
+  background: rgb(106,4,133);
+  border-radius: 100%;
+  margin-top: 600px;
+}
+.js-inut-URL, .js-obvertka-URL {
+  position: absolute;
+  top: 30px;
+}
+.js-obvertka-URL {
+  top: 50px;
+width: 100%;
+  background: #a3a8a8;
+  left: 0;
+  background: 0;
+}
+li {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: 10px;
+}
+.src-URL {
+  width: 200px;
+  height: 200px;
+}

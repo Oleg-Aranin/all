@@ -1,0 +1,57 @@
+.input-color-1, .input-color-2-bg, .input-color-2-text {
+  margin: 20px;
+  width: 100px;
+  height: 40px;
+}
+.but-color-1, .but-color-2, .but-color-3 {
+  width: 100px;
+  height: 30px;
+  background:
+}
+.but-color-3 {
+  margin-left: 200px;
+}
+.input-color-2-bg, .input-color-2-text {
+  display: block;
+
+}
+.div-color-2 {
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  border: 1px solid black;
+  margin: 30px;
+  padding: 10px;
+  font-size: 20px;
+}
+.rapp-2, .rapp-3 {
+  width: 500px;
+  margin-top: 100px;
+  margin-left: 50px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  padding: 20px;
+}
+.rapp-3 {
+  width: 100%;
+}
+.rgb {
+  position: relative;
+  margin: 50px;
+  width: 600px;
+  height: 600px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  padding: 20px;
+}
+.rgb input {
+  display: block;
+  margin: 10px;
+}
+.rgb-color {
+  position: absolute;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+  left: 50%;
+  transform: translateX(-50%);
+}

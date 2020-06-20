@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="app">
+    <div class="app__header">
+      <h1 class="js-time-header">Время игры: <span class="js-time">5.0</span></h1>
+      <h1 class="js-result-heder hide">Ваш результат: <span class="js-result"></span></h1>
+    </div>
+
+    <div class="app__content">
+      <button class="btn js-start">Начать</button>
+
+      <div class="game js-game"></div>
+    </div>
+
+    <div class="app__footer">
+      <div class="input">
+        <label for="game-time">Время игры, (сек)</label>
+        <input type="number" class="js-game-time" min="5" step="1" value="5">
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>

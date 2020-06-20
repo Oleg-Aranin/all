@@ -1,0 +1,35 @@
+.Content {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.Content-text {
+  max-height: 30px;
+  overflow: hidden;
+}
+.Content-text-show {
+  height: auto;
+}
+.Content-read {
+  margin-left: 100px;
+  color: rgb(24,26,219);
+  cursor: pointer;
+}
+.Content-comments {
+
+}
+.edit {
+  margin-left: 40px;
+  color:rgb(41,221,64);
+  cursor: pointer;
+}
+.delete {
+  margin-left: 40px;
+  color:rgb(246,7,7);
+  cursor: pointer;
+}
+.edit {
+  margin-left: 40px;
+  color:rgb(41,221,64);
+  cursor: pointer;
+}

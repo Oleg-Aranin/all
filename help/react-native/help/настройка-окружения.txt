@@ -1,0 +1,11 @@
+https://facebook.github.io/react-native/docs/getting-started
+
+npx expo-cli init food
+
+npm install -g expo-cli  - позволяет создавать проекты с помощю команды   expo init название-проекта
+предлагает два способа 1) управляемый - только js  2) голый - с другими языками
+
+выбираем blank 
+
+после создания проекта переходим в папку cd название-проекта
+и запускаем проект npm start # you can also use: expo start

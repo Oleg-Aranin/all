@@ -1,0 +1,2 @@
+export const SEARCH_PHOTOS = 'SEARCH_USERS'
+export const SET_LOADING = 'SET_LOADING'

@@ -1,0 +1,3 @@
+$ npm install --save konva react-konva
+
+console.time starts a timer and timeEnd stops it and prints the difference.

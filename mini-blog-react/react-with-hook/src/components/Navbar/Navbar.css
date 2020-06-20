@@ -1,0 +1,7 @@
+.Navbar *{
+  margin-left: 20px;
+}
+.Navbar-text {
+  margin-left: 200px;
+  color: rgb(65,99,221);
+}

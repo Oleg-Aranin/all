@@ -1,0 +1,18 @@
+* {
+  height: 100%;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.gm-style-iw, .gm-style-iw-c {
+  height: auto !important;
+  position: absolute !important;
+}
+
+[src="/skateboarding.svg"] {
+  width: 25px !important;
+  height: 25px !important;
+}
+.img  {
+  width: 150px !important;
+  height: 120px !important;
+}

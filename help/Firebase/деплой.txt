@@ -1,0 +1,15 @@
+сначала создать поект на фаербайс
+
+1) npm install -g firebase-tools 
+2) npm run build
+3) firebase login
+4) firebase init
+    a) y - согласен
+    b) хостинг
+    g) выбрать "использовать существующий проект"
+    d) указать имя папка build
+    z) "yes" конфигурировать как SPA
+    f) "no" не надо переписывать html который уже существует в папке build
+
+5) firebase deploy
+

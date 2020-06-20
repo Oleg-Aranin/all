@@ -1,0 +1,19 @@
+правильне изменене state
+
+changeCnt(i, cnt){
+  let newProducts = [...this.state.products]
+  let newProduct = {...newProducts[i]}
+      newProduct.current = cnt
+      newProducts[i] = newProduct
+      this.setState({products: newProducts})
+}
+
+или короче
+
+changeCnt(i, cnt){
+  let products = [...this.state.products]
+      products[i] = {...products[i], current: cnt]
+      this.setState({products})
+}
+
+

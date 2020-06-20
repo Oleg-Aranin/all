@@ -1,0 +1,36 @@
+describe('<App />', () => {} ) описываем компонент который тестируем в JSX формате, вторым параметром функцию
+
+УСТАНОВКА
+npm i --save-dev jest
+npm i --save-dev enzyme enxyme-adapter-react-16
+файл setup Test
+конфигурация для Jest в package.json
+
+testing React Components: The Mostly Definitive Guide
+https://www.valentinog.com/blog/testing-react/
+
+toContain() проверяет содержет ли значение которое мы хотим увидеть
+toBeTruthy() смотрит фолс или тру
+
+ENZYME документация - airbnb.io/enzyme
+
+enzyme API
+static рендерит компонент и возвращает простойHTML
+shalow рендерит компонент без детей (если нет детей можно проверять логику)
+Full DOM рендерит компонент и всех его детей + дает возможность модифицировать
+mount -после каждого теста надо чистить unmount()
+
+// 1) находм нужный элемент
+// 2) симулируем событие (назание события как HTML.  React - onChange, HTML - change)
+// 3) предоставляем фейковые данные события "mock" (второй аргумент)
+// 4) обновляем компонент
+// 5) проверяем ожидание prop('value')
+
+
+find() - вернет массив expect(wrapped.find(CommentBox).length).toEqual(1)
+
+toHaveAnInstanсeOf() имеет у сеья компонет илинет
+
+если компонент использует redux то в тестах надо обарачивать в redux как в index.js и добавлять мидлваеры если есть в проекте
+
+expect(wrapped.render().text()).toContain('Comment 1') для поиска видимого текста

@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should Match Snapshot 1`] = `"<header><h1>Expensify</h1><a aria-current=\\"page\\" class=\\"is-active\\" href=\\"/\\">Dashboard</a><a href=\\"/create\\">Create Expense</a><a href=\\"/help\\">Help</a></header>"`;
+
+exports[`should render Header correctly 1`] = `"<header><h1>Expensify</h1><a aria-current=\\"page\\" class=\\"is-active\\" href=\\"/\\">Dashboard</a><a href=\\"/create\\">Create Expense</a><a href=\\"/help\\">Help</a></header>"`;

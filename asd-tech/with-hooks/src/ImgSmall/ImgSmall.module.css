@@ -1,0 +1,30 @@
+.Imgwrapper {
+  position: absolute;
+  height: 400px;
+  width: 600px;
+  overflow: scroll;
+  left: 60%;
+  transform: translateX(-50%);
+}
+
+.ImgSmall {
+  display: inline-block;
+  margin: 10px;
+}
+.ImgSmall img {
+  width: 168px;
+  height: 111px;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 375px) {
+.Imgwrapper {
+  width: 100%;
+}
+.ImgSmall img {
+  width: 84px;
+  height: auto;
+  cursor: pointer;
+}
+}

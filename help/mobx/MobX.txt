@@ -1,0 +1,77 @@
+https://mobx.js.org
+
+
+Flux - архитектура (ни одна чать приложения не имеет права поменять стэйт напрямую)
+npm (yarn add) i mobx mobx-react
+дикаратор - это патерн
+
+Установить зависимости проекта: yarn add @babel/plugin-proposal-decorators mobx mobx-react mobx-react-devtools --dev
+
+
+"plugins": [
+      
+    
+["@babel/plugin-proposal-decorators", {"legacy": true }],
+["@babel/plugin-proposal-class-properties", {"loose": true }]
+]
+
+import {observer, Provider, inject} from 'mobx-react';
+<Provider cart={cart}  @inject(cart)
+
+import {observable, computed, action, extendObservable} from 'mobx';
+
+import {observer} from 'mobx-react';
+
+изменение стейта может быть только про помоши action. ВАЖНАЯ КОНЦЕПЦИЯ MOBX
+
+вместо дикоратора observable можно создать функцию observable({}) а в ней стор (объект). Альтернативный синтаксис декараторам
+значение стора пробрасываем в компонет в виде props
+
+extendObservable для создания наблюдаемого свойства объекта
+
+на функцию вешать observer через круглые скобки и БЕЗ СОБАКИ    export default observer( function() {
+ 
+} )
+
+runInAction(()) => {функция} если внутри экшена есть вложенная функция меняющая стэйт 
+
+
+==================без декараторов ==================
+https://mobx.js.org/best/decorators.html
+
+import { observable, computed, action, decorate } from "mobx";
+
+class Timer {
+  start = Date.now();
+  current = Date.now();
+
+  get elapsedTime() {
+    return this.current - this.start + "milliseconds";
+  }
+
+  tick() {
+    this.current = Date.now();
+  }
+}
+decorate(Timer, {
+  start: observable,
+  current: observable,
+  elapsedTime: computed,
+  tick: action
+});
+
+const Timer = observer(class Timer extends React.Component {
+    /* ... */
+})
+
+const Timer = observer((props) => (
+    /* rendering */
+))
+
+======================================= компьютед поля c аргументами=======================
+
+get validateControl() {
+  return (value, validation) => {
+    if (!validation) {
+      return true
+    }

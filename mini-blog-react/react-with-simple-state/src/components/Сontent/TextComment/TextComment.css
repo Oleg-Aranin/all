@@ -1,0 +1,9 @@
+.TextComment {
+  margin-top: 10px;
+  background-color: #f7f9f9!important;
+}
+.del-coment {
+  margin-left: 430px;
+  font-weight: bold;
+  cursor: pointer;
+}

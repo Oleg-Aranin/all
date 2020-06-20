@@ -1,0 +1,150 @@
+* {
+  color: #333333;
+  font-family: Tahoma;
+  box-sizing: border-box;
+}
+.js-hi, .js-Hello, .js-4, .js-5, .js-7, .js-6 {
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+}
+.hi, .Hello, .ss-4, .ss-5, .ss-7, .ss-7 {
+  font-size: 30px;
+}
+#text {
+  color: red;
+}
+
+
+
+.hide {
+  position: absolute;
+  left: 50%;
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+}
+.text-1 {
+  text-align: center;
+}
+
+.text-1 h2 {
+font-size: 24px;
+font-weight: 300;
+padding-top: 70px;
+
+}
+
+.text-1 h1 {
+  font-weight: 900;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.blok-2 {
+  text-align: center;
+  margin-top: 85px;
+  /* margin-left: 133px;
+  margin-right: 140px; */
+}
+
+.vidio {
+  width: 540px;
+  height: 305px;
+  display: inline-block;
+  margin-right: 35px;
+}
+.fom {
+  width: 350px;
+  height: 305px;
+  display: inline-block;
+  border: 1px solid red;
+  vertical-align: top;
+  border: 5px solid #3c3cdd;
+}
+
+.fom p {
+  font-size: 24px;
+  font-weight: 900;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.neme, .mile {
+  display: block;
+  height: 50px;
+  width: 285px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-left: 25px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.button {
+  height: 65px;
+  width: 285px;
+  background: #3c3cdd;
+  color: rgb(255,255,255);
+  border: none;
+  font-size: 18px;
+
+}
+.h22 {
+  text-align: center;
+  margin-top: 100px;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.futr {
+  margin: 120px;
+  text-align: center;
+}
+
+.ff1 {
+  display: inline-block;
+  margin-left: 115px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+.btt22 {
+  text-align: center;
+}
+.but2 {
+  height: 65px;
+  width: 285px;
+  background: #3c3cdd;
+  color: rgb(255,255,255);
+  border: none;
+  font-size: 18px;
+  margin-top: 100px;
+
+}
+.foto {
+  text-align: center;
+}
+.foto * {
+  padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */

@@ -1,0 +1,3 @@
+import 'bootstrap/dist/css/bootstrap.min.css'; в основном файле подключаем
+
+import {Table, Button} from 'react-bootstrap' вытаскиваем нужный компонент

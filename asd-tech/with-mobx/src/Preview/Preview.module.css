@@ -1,0 +1,20 @@
+.Preview {
+position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background: rgba(42,226,154, .5);
+ /* z-index: 10; */
+}
+
+.Preview img {
+  width: 450px;
+  height: 450px;
+}
+@media screen and (max-width: 375px) {
+  .Preview img {
+    width: 100%;
+    height: auto;
+  }
+}

@@ -1,0 +1,48 @@
+https://reactcommunity.org/react-transition-group
+
+ключевые кадры анимации - @keyframes move (даем имя для анимации)
+{
+первый кадр - from или 0%
+
+промежуточные кадры (может быть много)
+
+конечный кадр to или 100%
+}
+
+.box {
+animation-name: move; прописываем в стилях для элемента
+animation-duration: 1s; продолжительность анимации в секундах или милисекундах (без нее не будет работать)
+
+animation-timing-function: linear (по дефолту); 
+ease - разгоняется и к концу замедляется
+ease-in медленно начинается и к концу разгоняется
+ease-in-out медленно начинается потом разгоняется и к концу замедляется
+}
+
+https://cubic-bezier.com/ генерация анимации
+
+animation-timing-function: cubic-bezier(.17,1.57,.68,.08);
+
+
+animation-delay: 2s; задержка анимации (через какое время анимация проиграется)
+ animation-direction: reverse; направление анимации
+animation-iteration-count: 2; сколько раз повторить анимацию. infinite - безконечно
+
+Полная развернутая статья про анимацию на CSS3
+https://html5book.ru/css3-animation/
+
+Ссылка на библиотеку animate.css
+https://daneden.github.io/animate.css/
+
+Ссылка на wow js
+https://wowjs.uk/
+
+Сайт, где можно проверить свойство на поддержку в разных браузерах
+http://caniuse.com
+
+краткая запись (первые два строго остальные в любом порядке)
+.box2 {
+  animation: move 1s linear reverse;
+animation-fill-mode: forwards; остается на последнем ключевом кадре
+                     backwards возвращается на первый кадр
+}

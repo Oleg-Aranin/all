@@ -1,0 +1,15 @@
+componentDidMount  или componentWillMount- в них обычно делаем запрос к серверу 
+
+componentDidMount(){
+acsios.get().then((users) => {
+ this.setState({
+   loaded: true,
+   users
+})
+})
+}
+
+
+componentDidUpdate() - сработает когда компонент обновит свое состояние
+componentDidMount() - сработает когда комонент смонтирован в DOM
+componentWillMount() - сработает когда компонент будет подготовлен к монтированию

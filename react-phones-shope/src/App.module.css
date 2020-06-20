@@ -1,0 +1,12 @@
+.reactHeader {
+  /* padding: 0 15px; */
+  margin: 0;
+}
+.reactHeader div {
+  height: 80px;
+  background: #454d55;
+  padding-top: 20px;
+}
+.reactHeader NavLink {
+  margin-top: 10px;
+}

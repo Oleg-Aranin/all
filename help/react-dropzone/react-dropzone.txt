@@ -1,0 +1,15 @@
+https://github.com/react-dropzone/react-dropzone
+
+npm install --save react-dropzone
+
+yarn add react-dropzone
+
+import Dropzone from 'react-dropzone'
+
+<Dropzone>брось сюда фаил</Dropzone>
+
+по дефолту параметры в функции (принятый файл, отвергнутый файл) =>{}
+
+<Dropzone maxSize={} accept='image/*'>
+
+maxSize - в байтах

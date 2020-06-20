@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExpenseListItem should render ExpenseListItem correctly 1`] = `"<div><a href=\\"/edit/1\\"><h3>Gum</h3></a><p>195 - 0</p></div>"`;
+
+exports[`NotFoundPage should render NotFoundPage correctly 1`] = `"<div>404 - <a href=\\"/\\">Go home</a></div>"`;
